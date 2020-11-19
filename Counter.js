@@ -3,6 +3,7 @@ import React, { Component, PropTypes } from 'react'
 
 const Counter = ({ value, onIncrement, onDecrement }) =>
       <div>
+      
         <button onClick={onIncrement}>
           Increment
         </button>
